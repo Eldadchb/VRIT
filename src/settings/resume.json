@@ -1,13 +1,13 @@
 {
 	"basics": {
-		"name": "Eldad Chidra",
-		"label": "Software Developer",
-		"email": "eldadchb@gmail.com",
+		"name": "Dov Kischinovsky",
+		"label": "DMD OMFS",
+		"email": "dovkischi@gmail.com",
 		"phone": "(XXX) XXX-XXXX",
 		"picture": "",
 		"x_title": "Hello, I'm",
-		"job1": "Software",
-		"job2": "Developer",
+		"job1": "VRIT",
+		"job2": "Vitual Reality Implant Training",
 		"description": "",
 		"summary": "",
 		"keywords": "",
@@ -15,29 +15,23 @@
 		"location": {
 			"address": "XX XXXXXstreet",
 			"postalCode": "XXXXX",
-			"city": "Berlin",
-			"country": "Germany",
-			"countryCode": "DE",
+			"city": "Jerusalem",
+			"country": "Israel",
+			"countryCode": "IL",
 			"region": ""
 		},
 		"profiles": [
 			{
 				"network": "Google",
-				"username": "eldadchb@gmail.com",
-				"url": "mailto:eldadchb@gmail.com",
+				"username": "dovkischi@gmail.com",
+				"url": "mailto:dovkischi@gmail.com",
 				"x_icon": "fab fa-google"
 			},
 			{
 				"network": "LinkedIn",
-				"username": "eldad-chidra",
-				"url": "https://www.linkedin.com/in/eldad-chidra/",
+				"username": "dov-kischinovsky",
+				"url": "https://www.linkedin.com/in/dov-kischinovsky-dmd-omfs-a735b9182/",
 				"x_icon": "fab fa-linkedin-in"
-			},
-			{
-				"network": "GitHub",
-				"username": "eldadchb",
-				"url": "https://github.com/eldadchb",
-				"x_icon": "fab fa-github"
 			}
 		]
 	},

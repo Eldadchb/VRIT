@@ -7,7 +7,7 @@ import { TextDecrypt } from "../content/TextDecrypt";
 
 import "./Works.css";
 
-import CTrip from "../../assets/projects/ctrip.png";
+import VRIT from "../../assets/projects/ctrip.png";
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -22,17 +22,12 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: "CTrip",
-      description: `CTrip is an app that helps users plan 
-                    a short trip to a chosen destination 
-                    based on their preferences. 
-                    The app allows users to select the 
-                    types of restaurants and attractions 
-                    they would like to visit, and then 
-                    generates a customized route for 
-                    them to follow.`,
+      title: "VRIT",
+      description: `A new fascinating teaching tool, 
+                    a first-of-its-kind Virtual Reality Implant 
+                    Training for zygomatic and standard implants 
+                    surgical procedures.`,
       alter: "Startup Project",
-      image: `${CTrip}`,
     },
   ]);
 
@@ -42,8 +37,24 @@ export const Works = () => {
         {projects.map((project) => (
           <div className="project" key={project.id}>
             <div className="__img_wrapper">
-              <img src={project.image} alt={project.alter} />
-            </div>
+                <div style={{ padding: "75% 0 0 0", position: "relative" }}>
+                  <iframe
+                    src="https://player.vimeo.com/video/818347617?h=edbb106db9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                    frameborder="0"
+                    allow="autoplay; fullscreen; picture-in-picture"
+                    allowfullscreen
+                    style={{
+                      position: "absolute",
+                      top: 0,
+                      left: 0,
+                      width: "100%",
+                      height: "100%",
+                    }}
+                    title="Dental Virtual Reality - Zygomatic Implants Training 2022 - Copy"
+                  ></iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+              </div>
             <div className="__content_wrapper">
               <h3 className="title">
                 <TextDecrypt text={project.title} />
