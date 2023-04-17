@@ -1,13 +1,13 @@
 {
 	"basics": {
-		"name": "Dov Kischinovsky",
+		"name": "Dr. Dov Kischinovsky",
 		"label": "DMD OMFS",
 		"email": "dovkischi@gmail.com",
 		"phone": "(XXX) XXX-XXXX",
 		"picture": "",
 		"x_title": "Hello, I'm",
-		"job1": "VRIT",
-		"job2": "Vitual Reality Implant Training",
+		"job1": "DMD",
+		"job2": "OMFS",
 		"description": "",
 		"summary": "",
 		"keywords": "",
@@ -35,17 +35,17 @@
 			}
 		]
 	},
-	"work": [
+	"work": 
 		{
-			"company": "Company",
-			"position": "President",
+			"company": "VRIT",
+			"position": "CEO",
 			"website": "http://company.com",
 			"startDate": "2013-01-01",
 			"endDate": "2014-01-01",
-			"summary": "Description...",
+			"summary": "Vitual Reality Implant Training",
 			"highlights": ["Started the company"]
 		}
-	],
+	,
 	"volunteer": [
 		{
 			"organization": "Organization",
