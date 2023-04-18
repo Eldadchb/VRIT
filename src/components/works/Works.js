@@ -60,24 +60,27 @@ export const Works = () => {
                 </div>
                 <script src="https://player.vimeo.com/api/player.js"></script>
               </div>
-              <div className="__content_wrapper">
-                <h3 className="title">{project.title}</h3>
-                <p className="description">
-                  <ul>
-                    <h3>
-                      <li>Effective learning process</li>
-                    </h3>
-                    <h3>
-                      <li>Shorter required training time</li>
-                    </h3>
-                    <h3>
-                      <li>Hands on training experience with no risk</li>
-                    </h3>
-                    <h3>
-                      <li>Realistic surgical setting</li>
-                    </h3>
-                  </ul>
-                </p>
+
+              <div className="project">
+                <Typography variant="h5" component="h2">
+                  <h3 className="title">{project.title}</h3>
+                  <p className="description">
+                    <ul>
+                      <h3>
+                        <li>Effective learning process</li>
+                      </h3>
+                      <h3>
+                        <li>Shorter required training time</li>
+                      </h3>
+                      <h3>
+                        <li>Hands on training experience with no risk</li>
+                      </h3>
+                      <h3>
+                        <li>Realistic surgical setting</li>
+                      </h3>
+                    </ul>
+                  </p>
+                </Typography>
               </div>
             </div>
           </>

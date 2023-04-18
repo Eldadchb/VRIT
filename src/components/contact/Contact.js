@@ -99,9 +99,6 @@ export const Contact = () => {
               </button>
             </form>
           </div>
-          <h1 className="contact_msg">
-            <TextDecrypt text={greetings} />
-          </h1>
         </div>
       </Container>
     </section>
