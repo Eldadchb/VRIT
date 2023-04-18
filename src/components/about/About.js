@@ -18,10 +18,16 @@ const useStyles = makeStyles((theme) => ({
 
 export const About = () => {
   const classes = useStyles();
-  const greetings = "Hi there 👋🏽";
-  const aboutme = `My name is ${FirstName} and I am a Senior Consultant Zygomatic Implants 
-    and the Developer of the Virtual Reality Zygoma Teaching Tool. 
-    Excited about creating things and making a social impact.
+  const aboutmeTitle = "About";
+  const aboutme = `Dr. Dov Kischinovsky, the founder of VRIT, 
+                  with  a doctoral degree in 1976 from the 
+                  School of Dental Medicine and the degree 
+                  as an Oral and Maxillo- Facial Surgeon
+                  from Hadassa Hospital in 1986. Has been 
+                  performing Zygomatic Implants for 25 years 
+                  and been giving lectures and workshops 
+                  in Zygomatic Implants and guided Implant 
+                  Surgery.
   `;
 
   return (
@@ -39,12 +45,12 @@ export const About = () => {
           ></div>
           <div className="_content_wrapper">
             <Typography component="h2" variant="h5">
-              <TextDecrypt text={`${greetings}`} />
+              <TextDecrypt text={`${aboutmeTitle}`} />
             </Typography>
             <p className="aboutme">{aboutme}</p>
             <a href="#contact" className="contact-btn">
               <i className="fas fa-terminal"></i>
-              <Typography component="span"> Send me a message.</Typography>
+              <Typography component="span"> Send us a message.</Typography>
             </a>
           </div>
         </div>

@@ -7,9 +7,7 @@ import { TextDecrypt } from "../content/TextDecrypt";
 
 import "./Works.css";
 
-import VRIT from "../../assets/projects/ctrip.png";
-
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   main: {
     maxWidth: "100vw",
     marginTop: "3em",
