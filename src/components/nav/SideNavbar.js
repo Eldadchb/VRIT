@@ -24,7 +24,7 @@ export const SideNavbar = () => {
         className={activeNav === '#works' ? 'active' : ''}
       >
         <Typography>
-          Projects
+          Our Product
         </Typography>
       </a>
       <a href="#about" 
