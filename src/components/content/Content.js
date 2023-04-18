@@ -3,7 +3,6 @@ import { Typography, Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "./TextDecrypt";
 import Resume from "../../settings/resume.json";
-import { Degree, FirstName, LastName } from "../../utils/getName";
 
 const useStyles = makeStyles((theme) => ({
   main: {

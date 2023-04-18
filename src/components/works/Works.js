@@ -63,7 +63,7 @@ export const Works = () => {
 
               <div className="project">
                 <Typography variant="h5" component="h2">
-                  <h3 className="title">{project.title}</h3>
+                  <h2 className="title">{project.title}</h2>
                   <p className="description">
                     <ul>
                       <h3>
