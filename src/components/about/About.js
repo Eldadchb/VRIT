@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Typography } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
-import { FirstName } from "../../utils/getName";
 
 import "./About.css";
 
@@ -27,8 +26,7 @@ export const About = () => {
                   performing Zygomatic Implants for 25 years 
                   and been giving lectures and workshops 
                   in Zygomatic Implants and guided Implant 
-                  Surgery.
-  `;
+                  Surgery.`;
 
   return (
     <section id="about">

@@ -4,6 +4,7 @@ import { Container, Typography, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 import Swal from "sweetalert2";
+import PRIVATE_KEY from "./.env"
 
 import emailjs from "@emailjs/browser";
 
@@ -35,7 +36,7 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_aely7pk",
+        PRIVATE_KEY,
         "template_9jt9709",
         form.current,
         "tts0YbED_RxzVkXhT"

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
+import { Typography } from "@material-ui/core";
 
 import "./Works.css";
 
@@ -20,11 +21,11 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: "VRIT",
+      title: `The future teaching tool is already here`,
       description: `A new fascinating teaching tool, 
                     a first-of-its-kind Virtual Reality Implant 
                     Training for zygomatic and standard implants 
-                    surgical procedures.`,
+                    surgical procedures`,
       alter: "Startup Project",
     },
   ]);
@@ -33,8 +34,14 @@ export const Works = () => {
     <section id="works">
       <Container component="main" className={classes.main} maxWidth="md">
         {projects.map((project) => (
-          <div className="project" key={project.id}>
-            <div className="__img_wrapper">
+          <>
+            <div className="project">
+              <Typography variant="h5" component="h2">
+                {project.description}
+              </Typography>
+            </div>
+            <div className="project" key={project.id}>
+              <div className="__img_wrapper">
                 <div style={{ padding: "75% 0 0 0", position: "relative" }}>
                   <iframe
                     src="https://player.vimeo.com/video/818347617?h=edbb106db9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
@@ -53,13 +60,27 @@ export const Works = () => {
                 </div>
                 <script src="https://player.vimeo.com/api/player.js"></script>
               </div>
-            <div className="__content_wrapper">
-              <h3 className="title">
-                <TextDecrypt text={project.title} />
-              </h3>
-              <p className="description">{project.description}</p>
+              <div className="__content_wrapper">
+                <h3 className="title">{project.title}</h3>
+                <p className="description">
+                  <ul>
+                    <h3>
+                      <li>Effective learning process</li>
+                    </h3>
+                    <h3>
+                      <li>Shorter required training time</li>
+                    </h3>
+                    <h3>
+                      <li>Hands on training experience with no risk</li>
+                    </h3>
+                    <h3>
+                      <li>Realistic surgical setting</li>
+                    </h3>
+                  </ul>
+                </p>
+              </div>
             </div>
-          </div>
+          </>
         ))}
       </Container>
     </section>

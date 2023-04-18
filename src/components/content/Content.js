@@ -30,9 +30,6 @@ export const Content = () => {
   return (
     <Container component="main" className={classes.main} maxWidth="md">
       <div className={classes.heading}>
-        <Typography variant="h5" component="h2">
-          <TextDecrypt text={`${Degree} ${FirstName} ${LastName}`} />
-        </Typography>
         <Typography variant="h1" component="h1" className={classes.jobs}>
           <TextDecrypt text={`${Resume.work.company}`} />
           <TextDecrypt text={`${Resume.work.summary}`} />
