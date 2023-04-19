@@ -3,7 +3,6 @@ import { useRef } from "react";
 import { Container, Typography, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import Swal from "sweetalert2";
-
 import emailjs from "@emailjs/browser";
 
 import "./Contact.css";
@@ -25,8 +24,6 @@ const useStyles = makeStyles((theme) => ({
 
 export const Contact = () => {
   const classes = useStyles();
-  const greetings = "Contact us";
-
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -34,7 +31,7 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_aely7pk",
+        process.env.REACT_APP_PRIVATE_KEY,
         "template_9jt9709",
         form.current,
         "tts0YbED_RxzVkXhT"
@@ -44,6 +41,7 @@ export const Contact = () => {
           console.log(result.text);
         },
         (error) => {
+          console.log(process.env);
           console.log(error.text);
         }
       );
