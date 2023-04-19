@@ -68,6 +68,7 @@ export const Contact = () => {
                 variant="filled"
                 name="name"
                 className={classes.formfield}
+                required
               />
               <TextField
                 id="outlined-password-input"
@@ -77,6 +78,7 @@ export const Contact = () => {
                 variant="filled"
                 name="email"
                 className={classes.formfield}
+                required
               />
               <TextField
                 id="outlined-password-input"
@@ -88,6 +90,7 @@ export const Contact = () => {
                 variant="filled"
                 name="message"
                 className={classes.formfield}
+                required
               />
               <button type="submit" value="Send" className="submit-btn">
                 <i className="fas fa-terminal"></i>

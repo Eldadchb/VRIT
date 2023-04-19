@@ -44,9 +44,9 @@ export const Works = () => {
                 <div style={{ padding: "75% 0 0 0", position: "relative" }}>
                   <iframe
                     src="https://player.vimeo.com/video/818347617?h=edbb106db9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    frameborder="0"
+                    frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
-                    allowfullscreen
+                    allowFullScreen
                     style={{
                       position: "absolute",
                       top: 0,
@@ -63,7 +63,7 @@ export const Works = () => {
               <div className="project">
                 <Typography variant="h5" component="h2">
                   <h2 className="title">{project.title}</h2>
-                  <p className="description">
+                  <div className="description">
                     <ul>
                       <h3>
                         <li>Effective learning process</li>
@@ -78,7 +78,7 @@ export const Works = () => {
                         <li>Realistic surgical setting</li>
                       </h3>
                     </ul>
-                  </p>
+                  </div>
                 </Typography>
               </div>
             </div>
