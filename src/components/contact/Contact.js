@@ -41,7 +41,6 @@ export const Contact = () => {
           console.log(result.text);
         },
         (error) => {
-          console.log(process.env);
           console.log(error.text);
         }
       );
