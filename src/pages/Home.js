@@ -7,7 +7,7 @@ import { ThemeToggle } from '../components/theme/ThemeToggle';
 import { SocialIcons } from '../components/content/SocialIcons';
 import { SpeedDials } from '../components/speedDial/SpeedDial';
 import { SideNavbar } from '../components/nav/SideNavbar';
-import { Works } from '../components/works/Works';
+import { Product } from '../components/product/Product';
 import { About } from '../components/about/About';
 import { Contact } from '../components/contact/Contact';
 
@@ -36,7 +36,7 @@ export const Home = () => {
         </Hidden>
       </div>
       <SideNavbar />
-      <Works />
+      <Product />
       <About />
       <Contact />
     </>

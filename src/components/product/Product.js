@@ -5,7 +5,7 @@ import { Container } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography } from "@material-ui/core";
 
-import "./Works.css";
+import "./Product.css";
 
 const useStyles = makeStyles(() => ({
   main: {
@@ -15,7 +15,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-export const Works = () => {
+export const Product = () => {
   const classes = useStyles();
   const [projects, setProjects] = useState([
     {
