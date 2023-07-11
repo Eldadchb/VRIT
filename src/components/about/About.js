@@ -18,15 +18,10 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const aboutmeTitle = "About";
-  const aboutme = `Dr. Dov Kischinovsky, the founder of VRIT, 
-                  with  a doctoral degree in 1976 from the 
-                  School of Dental Medicine and the degree 
-                  as an Oral and Maxillo- Facial Surgeon
-                  from Hadassa Hospital in 1986. Has been 
-                  performing Zygomatic Implants for 25 years 
-                  and been giving lectures and workshops 
-                  in Zygomatic Implants and guided Implant 
-                  Surgery.`;
+  const aboutme = `Dr. Dov Kischinovsky is the founder of VRIT. 
+  He is a Maxillo-Facial Surgeon with 35 years of experience in Implantology.
+  Has been performing Zygomatic implants for 25 years.
+  Is giving worldwide lectures and workshops in Zygomatic Implants and Guided Implant Surgery.`;
 
   return (
     <section id="about">

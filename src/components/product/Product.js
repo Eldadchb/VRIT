@@ -20,11 +20,10 @@ export const Product = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: `The future teaching tool is already here`,
-      description: `A new fascinating teaching tool, 
-                    a first-of-its-kind Virtual Reality Implant 
-                    Training for zygomatic and standard implants 
-                    surgical procedures`,
+      title: ``,
+      description: `A new captivating educational technology:
+      zygoma and standard implants training procedure in a virtual realistic 3D environment
+      `,
       alter: "Startup Project",
     },
   ]);
