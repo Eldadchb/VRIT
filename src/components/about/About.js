@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
 export const About = () => {
   const classes = useStyles();
   const aboutmeTitle = "About";
-  const aboutme = `Dr. Dov Kischinovsky is the founder of VRIT. 
+  const aboutme = `Dr. Kischinovsky is the founder of VRIT. 
   He is a Maxillo-Facial Surgeon with 35 years of experience in Implantology.
   Has been performing Zygomatic implants for 25 years.
   Is giving worldwide lectures and workshops in Zygomatic Implants and Guided Implant Surgery.`;
