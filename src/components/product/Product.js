@@ -76,6 +76,9 @@ export const Product = () => {
                       <h3>
                         <li>Realistic surgical setting</li>
                       </h3>
+                      <h3>
+                        <li>...</li>
+                      </h3>
                     </ul>
                   </div>
                 </Typography>
